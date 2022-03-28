@@ -2,3 +2,13 @@ create database Escola
 
 use Escola
 
+create table Curso(
+ID_curso int primary key,
+Nome varchar(50)
+)
+
+create table Cli(
+RM_Professor int primary key,
+Nome varchar(50)
+)
+
